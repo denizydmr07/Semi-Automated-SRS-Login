@@ -3,6 +3,11 @@
  You only need to enter your credentials once in the extension window.
  You can disable the extension anytime you want.
 
+<p align="center">
+  <img src="logo/ex.png" alt="Example"/>
+</p>
+
+
 ## How to use (If the extension is not published in the Chrome WebStore yet)
  1. You can download the repo as a .zip file (extract afterwards) or clone it. 
  2. Go to the [chrome://extensions/](chrome://extensions/) or click to "Extensions" button at the top-right of the Chrome, then click "Manage Extensions".
