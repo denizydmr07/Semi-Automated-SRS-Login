@@ -1,0 +1,1 @@
+We do not collect any user data. Our extension operates by storing information locally on the user's device for the sole purpose of providing functionality within the extension. We do not collect, transmit, or store any personal user data externally.
