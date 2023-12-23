@@ -1,0 +1,70 @@
+body {
+    background-color: #444;
+    color: #fff;
+    width: 300px;
+    /* Adjust the width as needed */
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #333;
+    /* Slightly different dark grey for input fields */
+    color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #3f3f3f;
+    color: #fff;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #bb0000;
+}
+
+button:focus {
+    background-color: #bb0000;
+}
