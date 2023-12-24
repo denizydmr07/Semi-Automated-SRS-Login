@@ -15,6 +15,7 @@ chrome.runtime.sendMessage({ message: "Accesing Account Information"}, (response
     // Fill in the login form
     document.getElementById("LoginForm_username").value = response.STUDENT_ID;
     document.getElementById("LoginForm_password").value = response.SRS_PASSWORD;
+    document.getElementById("LoginForm_password").type = "password"
 
     // Click the login button
     document.getElementsByName("yt0")[0].click();
